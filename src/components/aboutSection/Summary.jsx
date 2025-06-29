@@ -12,7 +12,7 @@ const Summary = () => {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0 }}
-          className="md:text-left font-special font-black text-yellow text-5xl "
+          className="md:text-center font-special font-black text-yellow text-5xl "
         >
           Who is Cristina?
         </motion.div>

@@ -25,7 +25,7 @@ export const zoom = (direction, delay) => {
   return {
     hidden: {
      
-      scale: direction === "in" ? 0.8 : direction === "out" ? 1.2 : 1,
+      scale: direction === "in" ? 0.8 : direction === "out" ? 1.1 : 1,
       opacity: 0,
     },
     show: {

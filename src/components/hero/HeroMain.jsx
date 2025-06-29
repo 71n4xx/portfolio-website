@@ -8,8 +8,9 @@ const HeroMain = () => {
     <div className="pt-52 pb-16">
       <div className="flex md:flex-col lg:flex-row sm:flex-col max-w-[1400px] mx-auto justify-between items-center relative px-8">
         <HeroText />
-        <HeroPic />
-        <HeroGradient/>
+          <HeroPic />
+
+        <HeroGradient />
       </div>
     </div>
   );

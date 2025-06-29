@@ -24,7 +24,7 @@ const SkillList = ({ text }) => {
 const SoftSkills = () => {
   return (
     <motion.div
-      variants={zoom("out", 1.6)}
+      variants={zoom("in", 1.6)}
       initial="hidden"
       whileInView={"show"}
       viewport={{ once: false, amount: 0 }}

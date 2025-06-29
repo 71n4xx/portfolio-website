@@ -22,7 +22,7 @@ const icons = [
 const SkillsList = () => {
   return (
     <div className="flex lg:flex-col md:flex-row-reverse sm:flex-row-reverse">
-      <div className="lg:h-[65vh] md:h-auto sm:h-auto flex lg:flex-row md:flex-col sm:flex-col md:items-start sm:items-start md:w-screen sm:w-screen md:mt-16 sm:mt-10 lg:items-end justify-center gap-2">
+      <div className=" md:h-auto sm:h-auto flex lg:flex-row md:flex-col sm:flex-col md:items-start sm:items-start lg:w-auto 2xl:w-auto xl:w-auto md:w-screen sm:w-screen md:mt-16 sm:mt-10 lg:items-end justify-center gap-2">
         {skillList.map((indivSkill, index) => (
           <motion.div
             variants={fadeIn("left", (index + 1) * 0.2)}

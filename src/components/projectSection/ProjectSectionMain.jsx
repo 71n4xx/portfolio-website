@@ -14,7 +14,7 @@ const ProjectSectionMain = () => {
   return (
     <div>
       <motion.div
-        variants={zoom("out", 0.2)}
+        variants={zoom("in", 0.2)}
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: false, amount: 0 }}

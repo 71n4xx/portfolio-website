@@ -13,7 +13,7 @@ const AwardsMain = () => {
   };
   return (
     <motion.div
-      variants={zoom("out", 1.0)}
+      variants={zoom("in", 1.0)}
       initial="hidden"
       whileInView={"show"}
       viewport={{ once: false, amount: 0 }}

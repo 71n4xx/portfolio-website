@@ -40,7 +40,7 @@
 }
 
 .marquee{
-  width: 100dvw;
+
   overflow:hidden;
   position: relative;
 }

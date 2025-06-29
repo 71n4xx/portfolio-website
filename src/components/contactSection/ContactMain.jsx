@@ -66,8 +66,8 @@ const ContactMain = () => {
       .catch((err) => console.error("Failed to copy:", err));
   };
   return (
-    <div className="flex justify-center w-full mt-52 mb-24 lg:ml-8 mr-4">
-      <div className="max-w-[1400px] w-full flex  lg:flex-row xl:flex-row 2xl:flex-row md:flex-col sm:flex-col justify-between items-center ">
+    <div className="flex justify-center w-full mt-52 mb-24 lg:px-8 mr-4">
+      <div className="max-w-[1300px] w-full flex  lg:flex-row xl:flex-row 2xl:flex-row md:flex-col sm:flex-col justify-between items-center ">
         <div className="flex flex-col gap-6 justify-center items-start w-full md:max-w-[80%] xl:max-w-[50%] sm:max-w-[90%] 2xl:max-w-[50%]  lg:max-w-[50%]">
           <div className="text-yellow font-special font-black text-[3rem]">
             Get in touch
