@@ -420,7 +420,7 @@ export const projects = [
       title: "FIMS",
       subtitle: "Fitness Infinity Management System Created Using Java Swing",
       description:
-        "The Fitness Infinity Management System or FIMS is a fitness management system which allows gym owners to facilitate and manage data such as daily biling system, and gym membership system. FIMS is especially created for Fitness Infinity Gym located in Malolos, Bulacan. This system is developed using Java Swing and MySQL Database. This project served as the final project for the course, CPE206/L or Data Structure and Algorithm.",
+        "The Fitness Infinity Management System or FIMS is a fitness management system which allows gym owners to facilitate and manage data such as daily biling system, and gym membership system. FIMS is especially created for Fitness Infinity Gym, located in Malolos, Bulacan. This system is developed using Java Swing and MySQL Database. This project served as the final project for the course, CPE206/L or Data Structure and Algorithm.",
       techs: ["MySQL", "Java Swing"],
       keyFeatures: [
         "Billing system with Day-to-Day Analytics",
@@ -444,7 +444,7 @@ export const projects = [
       title: "WordSpace",
       subtitle: "Just do it, Just TYPE it",
       description:
-        "Wordspace is an offline, fixed shooter, free-to-play, galaxy themed, typing game developed using pygame. In this game, you, as a keyboard warrior, must save the galaxy against the enemy words by typing all the words so that your spaceship can shoot a ray of bullets onto the target words. This is a fun, exciting, and entertaining game with the primary goal of improving the typing skills of its players. This project served as the final project for the course, CPE202L or Object Oriented Programming.",
+        "Wordspace is an offline, fixed shooter, free-to-play, galaxy-themed, typing game developed using Pygame. In this game, you, as a keyboard warrior, must save the galaxy against the enemy words by typing all the words so that your spaceship can shoot a ray of bullets onto the target words. This is a fun, exciting, and entertaining game with the primary goal of improving the typing skills of its players. This project served as the final project for the course, CPE202L or Object Oriented Programming.",
       techs: ["Pygame", "Python"],
       keyFeatures: [
         "Has three game modes - Adventure mode, Speed mode, and Practice Mode",
@@ -488,7 +488,7 @@ export const projects = [
         "/images/projectPhotos/wordspace/33.png",
         "/images/projectPhotos/wordspace/34.png",
         "/images/projectPhotos/wordspace/35.png",
-        "/images/projectPhotos/ordspace/36.png",
+        "/images/projectPhotos/wordspace/36.png",
         "/images/projectPhotos/wordspace/37.png",
       ],
       logo: "wordspace/wordspace logo.png",
@@ -687,7 +687,7 @@ export const events = [
 
 export const awards = [
   {
-    compName: "8th CpE Challenge: Quizbow Challenge (Region 3)",
+    compName: "8th CpE Challenge: Quizbowl Challenge (Region 3)",
     date: "March 8, 2025",
     place: "1st Runner Up",
     pic: "/images/AwardsPic/quizbowl 2.jpg",
@@ -703,7 +703,7 @@ export const awards = [
   },
 
   {
-    compName: "7th CpE Challenge: Quizbow Challenge (Region 3)",
+    compName: "7th CpE Challenge: Quizbowl Challenge (Region 3)",
     date: "January 24, 2024",
     place: "CHAMPION",
     pic: "/images/AwardsPic/quizbowl 1.jpg",

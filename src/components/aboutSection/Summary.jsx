@@ -27,9 +27,9 @@ const Summary = () => {
           viewport={{ once: false, amount: 0 }}
       className="lg:px-32 md:px-16 sm:px-8 lg:text-left md:text-center sm:text-center font-body text-base font-light text-white">
         I am Cristina S. Cruzat, a Computer engineer who is always up for new
-        leanings and opportunities. I have various experiences on different
+        learnings and opportunities. I have various experiences on different
         academic competitions and student organization leadership. My
-        experiences has helped me develop a keen interest to cybersecurity, and
+        experiences have helped me develop a keen interest to cybersecurity, and
         web development. An engineer in the making, finally ready to showcase
         her abilities and learn from the experiences of the experts in the
         field.
