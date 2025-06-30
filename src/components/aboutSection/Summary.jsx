@@ -30,9 +30,8 @@ const Summary = () => {
         learnings and opportunities. I have various experiences on different
         academic competitions and student organization leadership. My
         experiences have helped me develop a keen interest to cybersecurity, and
-        web development. An engineer in the making, finally ready to showcase
-        her abilities and learn from the experiences of the experts in the
-        field.
+        web development. <br></br><br></br>I'm eager to bring this experience and my enthusiasm for programming as I collaborate with you. An engineer in the making, finally ready to showcase
+        her abilities and work with honed experts in the field toward mutual growth and innovation.
       </motion.div>
     </div>
   );
