@@ -79,7 +79,7 @@ export const projects = [
       subtitle:
         "An IoT-based Sea Salt Shield (S3) for Monitoring and Maintaining Salt Farms",
       description:
-        "This system aims to enhance the production of salt despite the unpresidented weather conditions. The team have envisioned bringing back the former glory of our local salt industry by giving them a system that is focused on improving efficiency by monitoring and maintaining the production of salt. S-Cube provides a shielding mechanism and an IoT-based controlled environment for salt farms. This project served as the final thesis in partial fulfillment of the course, CPE406D or CPE Practice and Design 2",
+        "This system aims to enhance the production of salt despite the unprecedented weather conditions. The team has envisioned bringing back the former glory of our local salt industry by giving them a system that is focused on improving efficiency by monitoring and maintaining the production of salt. S-Cube provides a shielding mechanism and an IoT-based controlled environment for salt farms. This project served as the final thesis in partial fulfillment of the course, CPE406D or CPE Practice and Design 2.",
       techs: ["ESP-32", "ESP-NOW", "Flutterflow", "Firebase"],
       keyFeatures: [
         "Shielded salt bed for protection against weather",
@@ -257,15 +257,15 @@ export const projects = [
     },
     signcal: {
       title: "SignCal",
-      subtitle: "An Innovative Virtual Calculator Integrating AI Image Processing and Recognition",
+      subtitle:
+        "An Innovative Virtual Calculator Integrating AI Image Processing and Recognition",
       description:
         "SignCal is a gesture-based calculator aimed at students, educators, and computer vision enthusiasts, offering a fun and innovative approach to performing computations. By leveraging the power of computer vision, SignCal introduces 3 dynamic UI modes: purely gesture-based, AI driven drawing and equation solver, virtual overlayed calculator. SignCal is made using CVzone Handtracking Module for computer vision, streamlit for UI, and opencv for processing each frames. This project served as the final project for the course, CPE405/L or Digital Signal Processing",
-      techs: ["GenAI API", "Streamlit", "CVzone", ],
+      techs: ["GenAI API", "Streamlit", "CVzone"],
       keyFeatures: [
         "Interactive User Interface",
-        "Login using Google or Facebook",
         "Integrated image recognition",
-        "Gamified User Experience through points and ranks",
+        "Revolutionized Hand-Gesture Calculator"
       ],
       thumbnail: "/images/projectPhotos/signcal/thumbnail.png",
       pictures: [
@@ -286,7 +286,8 @@ export const projects = [
 
     meowww: {
       title: "Meowww",
-      subtitle: "Connecting Cat Lovers Worldwide with a Pinterest-Inspired Platform for Cats Only",
+      subtitle:
+        "Connecting Cat Lovers Worldwide with a Pinterest-Inspired Platform for Cats Only",
       description:
         "Meowww is a website created for all catlovers. This website is like pinterest but for cats only. Users may login, publish post, upload their cat photos, like posts and more. This project served as the final project for the courses CPE312 - Elective1 and CPE315 - Elective2.",
       techs: ["HTML", "CSS", "JS", "PHP"],
@@ -340,7 +341,12 @@ export const projects = [
         "Digital Display as visual indicator",
       ],
       thumbnail: "/images/projectPhotos/fmss/thumbnail.jpg",
-      pictures: ["/images/projectPhotos/fmss/1.jpg", "/images/projectPhotos/fmss/2.jpg", "/images/projectPhotos/fmss/3.jpg", "/images/projectPhotos/fmss/4.png"],
+      pictures: [
+        "/images/projectPhotos/fmss/1.jpg",
+        "/images/projectPhotos/fmss/2.jpg",
+        "/images/projectPhotos/fmss/3.jpg",
+        "/images/projectPhotos/fmss/4.png",
+      ],
     },
     qiosk: {
       title: "Qiosk",

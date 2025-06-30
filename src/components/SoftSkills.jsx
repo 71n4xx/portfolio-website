@@ -34,7 +34,7 @@ const SoftSkills = () => {
       <div className="gradient-edge"></div>
 
       <div className="marquee h-28 bg-darkViolet absolute w-full">
-        <div className=" bg-darkViolet marquee-box gap-12 2xl:animate-[marquee_80s_linear_infinite] xl:animate-[marquee_70s_linear_infinite] lg:animate-[marquee_60s_linear_infinite] md:animate-[marquee_30s_linear_infinite] sm:animate-[marquee_20s_linear_infinite]">
+        <div className=" bg-darkViolet marquee-box gap-12 2xl:animate-[marquee_60s_linear_infinite] xl:animate-[marquee_50s_linear_infinite] lg:animate-[marquee_40s_linear_infinite] md:animate-[marquee_20s_linear_infinite] sm:animate-[marquee_10s_linear_infinite]">
           {softSkillsList.map((skill) => (
             <SkillList key={skill.text} text={skill.text} />
           ))}
@@ -55,6 +55,7 @@ const SoftSkills = () => {
           ))}
         </div>
       </div>
+      
     </motion.div>
   );
 };
