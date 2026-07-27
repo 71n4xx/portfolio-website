@@ -26,12 +26,12 @@ const Summary = () => {
           whileInView={"show"}
           viewport={{ once: false, amount: 0 }}
       className="lg:px-32 md:px-16 sm:px-8 lg:text-left md:text-center sm:text-center font-body text-base font-light text-white">
-        I am Cristina S. Cruzat, a Computer engineer who is always up for new
-        learnings and opportunities. I have various experiences on different
-        academic competitions and student organization leadership. My
-        experiences have helped me develop a keen interest to cybersecurity, and
-        web development. <br></br><br></br>I'm eager to bring this experience and my enthusiasm for programming as I collaborate with you. An engineer in the making, finally ready to showcase
-        her abilities and work with honed experts in the field toward mutual growth and innovation.
+        I am Cristina S. Cruzat, a Computer Engineering graduate (Magna Cum Laude) with hands-on 
+        security operations experience supporting enterprise endpoint and XDR platforms at Trend Micro. 
+        Skilled in triaging and investigating malware and ransomware 
+        incidents through XDR alert analysis — tracing malware behavior, origin, and lateral movement. 
+        Back-to-back regional placer in national cybersecurity CTF competitions. 
+        <br></br><br></br>Seeking a SOC Analyst role to apply threat detection, incident investigation, and endpoint security expertise.
       </motion.div>
     </div>
   );

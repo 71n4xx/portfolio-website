@@ -1,22 +1,23 @@
 import React from "react";
 import SkillsItem from "./SkillsItem";
+import { SiTrendmicro } from "react-icons/si";
 import { skillList } from "../../data/data";
 import { TbBrandReactNative } from "react-icons/tb";
-import { BiLogoSpringBoot } from "react-icons/bi";
-import { SiTailwindcss } from "react-icons/si";
-import { FaGitAlt } from "react-icons/fa";
-import { TbBrandMysql } from "react-icons/tb";
-import { RiFirebaseFill } from "react-icons/ri";
+import { FaShieldVirus } from "react-icons/fa";
+import { FaMixer } from "react-icons/fa";
+import { BiSolidBug } from "react-icons/bi";
+import { PiWindowsLogoFill } from "react-icons/pi";
+import { IoMdGitNetwork } from "react-icons/io";
 import { motion } from "framer-motion";
 import { fadeIn, zoom } from "../../framerMotion/variants";
 
 const icons = [
-  <TbBrandReactNative />,
-  <BiLogoSpringBoot />,
-  <SiTailwindcss />,
-  <FaGitAlt />,
-  <TbBrandMysql />,
-  <RiFirebaseFill />,
+  <SiTrendmicro />,
+  <FaShieldVirus />,
+  <FaMixer />,
+  <BiSolidBug />,
+  <PiWindowsLogoFill />,
+  <IoMdGitNetwork />,
 ];
 
 const SkillsList = () => {

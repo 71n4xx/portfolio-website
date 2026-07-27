@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import PageTitle from "../components/project/PageTitle";
 import AwardsCard from "../components/AwardsCard";
-import { awards, events, seminars } from "../data/data";
+import { awards, events, seminars, certificates } from "../data/data";
 import EventsCard from "../components/EventsCard";
 import Footer from "../components/Footer";
 import AwardModal from "../components/modals/AwardModal";
@@ -46,6 +46,40 @@ const AchievementPage = () => {
           subtitle="As an achiever, these are the real testament of my hardwork and resilience."
         />
       </motion.div>
+      <motion.div
+        variants={fadeIn("up", 0.6)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{ once: false, amount: 0 }}
+        className="lg:flex-row xl:flex-row 2xl:flex-row gap-8 md:flex-row sm:flex-col flex justify-between items-center w-full max-w-[1300px] mt-10 mb-2"
+      >
+        <div className="font-special font-black text-white text-[2rem]">
+          Certificates
+        </div>
+        <div className="font-body font-normal lg:text-right xl:text-right 2xl:text-right md:text-right sm:text-center text-base text-white">
+          A testament of my skills 📜🧐
+        </div>
+      </motion.div>
+      <div className="w-full max-w-[1200px] flex flex-col justify-center gap-2 items-center">
+        {certificates.map((event, i) => (
+          <motion.div
+            variants={fadeIn("right", i * 0.2)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: true, amount: 0 }}
+            className="w-full max-w-[1200px]"
+            key={i}
+          >
+            <EventsCard
+              event={event}
+              
+              clickFunc={() => {
+                openEvent(event);
+              }}
+            />
+          </motion.div>
+        ))}
+      </div>
       <motion.div
         variants={fadeIn("up", 0.6)}
         initial="hidden"

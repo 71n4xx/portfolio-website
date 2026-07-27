@@ -36,6 +36,21 @@ export const education = [
 ];
 
 export const experience = [
+  
+  {
+    year: "October 2025 - Present",
+    company: "TrendAI (formerly known as Trend Micro)",
+    address: "8/F Tower 2 Rockwell Business Center, Ortigas Ave. Pasig City",
+    position: "DevOps Platform Engineer",
+    logo: "/images/experience/TrendAI.jpg",
+  },
+  {
+    year: "August 2025 - October 2025",
+    company: "TrendAI (formerly known as Trend Micro)",
+    address: "8/F Tower 2 Rockwell Business Center, Ortigas Ave. Pasig City",
+    position: "DevOps Platform Trainee",
+    logo: "/images/experience/TrendAI.jpg",
+  },
   {
     year: "June 2024 - September 2024",
     company: "iWave, Inc.",
@@ -43,32 +58,33 @@ export const experience = [
     position: "Web Developer Intern",
     logo: "/images/experience/iwave.png",
   },
+  
 ];
 
 export const skillList = [
   {
     color: "gradient1",
-    label: "React",
+    label: "TrendAI Vision One",
   },
   {
     color: "gradient2",
-    label: "Java Springboot",
+    label: "Apex One",
   },
   {
     color: "gradient3",
-    label: "Tailwind CSS",
+    label: "XDR/EDR Alert Analysis",
   },
   {
     color: "gradient4",
-    label: "Git",
+    label: "Malware Analysis",
   },
   {
     color: "gradient5",
-    label: "MySQL",
+    label: "Windows Server and Client",
   },
   {
     color: "gradient6",
-    label: "Firebase",
+    label: "TCP/IP",
   },
 ];
 
@@ -691,6 +707,31 @@ export const events = [
   },
 ];
 
+export const certificates = [
+  {
+    eventName: "Trend Micro Apex One Certified Professional",
+    role: ["Cybersecurity"],
+    date: "November 4, 2025 - November 4, 2027",
+    where: "Issued by Trend Micro",
+    pic: ["/images/certificates/A1OP.jpg"],
+  },
+  {
+    eventName: "Trend Micro Apex One SaaS Certified Professional",
+    role: ["Cybersecurity"],
+    date: "November 3, 2025 - November 3, 2027",
+    where: "Issued by Trend Micro",
+    pic: ["/images/certificates/A1SAAS.jpg"],
+  },
+  {
+    eventName: "Trend Micro Fundamental of Malware Awareness",
+    role: ["Cybersecurity"],
+    date: "November 24, 2025",
+    where: "Issued by Trend Micro",
+    pic: ["/images/certificates/FMA.jpg"],
+  },
+  
+];
+
 export const awards = [
   {
     compName: "8th CpE Challenge: Quizbowl Challenge (Region 3)",
@@ -724,3 +765,5 @@ export const awards = [
     cert: "/images/AwardsPic/h4g 2023 cert.jpg",
   },
 ];
+
+
